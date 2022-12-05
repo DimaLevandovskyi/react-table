@@ -287,7 +287,6 @@ export default class App extends Component {
 
   dragDrop = (event, type) =>{
     event.preventDefault()
-
     let tupeOrder = type.order;
     let copyTypes = [...this.state.types];
 
