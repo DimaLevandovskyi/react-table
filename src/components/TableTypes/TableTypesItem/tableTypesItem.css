@@ -1,0 +1,33 @@
+.th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px 20px 12px 10px;
+    background: #b5f1ff;
+}
+
+.th:first-child{
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+
+.button{
+    padding: 6px 8px;
+    border-radius: 3px;
+    background: rgb(132, 255, 132);
+    line-height: 1;
+    border: none;
+    margin-left: 5px;
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+    right: 70px;
+}
+
+.titleTypes{
+    margin-bottom: 8px;
+}
+
+.input{
+    padding: 4px;
+}
