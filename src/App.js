@@ -286,9 +286,9 @@ export default class App extends Component {
   }
 
   dragDrop = (event, type) =>{
+    event.preventDefault()
 
     let tupeOrder = type.order;
-    event.preventDefault()
     let copyTypes = [...this.state.types];
 
     copyTypes.forEach(item =>{
