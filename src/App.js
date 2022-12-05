@@ -279,7 +279,6 @@ export default class App extends Component {
       return 0;
     });
 
-
     this.setState({
       types: copyTypes
     })
